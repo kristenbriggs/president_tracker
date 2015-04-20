@@ -1,0 +1,19 @@
+{
+  "name": "president_tracker",
+  "version": "1.0.0",
+  "description": "2016 presidential candidate vote tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristenbriggs/president_tracker.git"
+  },
+  "author": "Smith, Bennett & Briggs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristenbriggs/president_tracker/issues"
+  },
+  "homepage": "https://github.com/kristenbriggs/president_tracker"
+}
