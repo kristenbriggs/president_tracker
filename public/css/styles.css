@@ -35,6 +35,7 @@ h1 {
     align-items: flex-start;
     width: 900px;
     margin: 0 auto;
+    margin-top: 200px;
 }
 
 
@@ -99,3 +100,4 @@ h1 {
     bottom:0;
     right:0;
 }
+
