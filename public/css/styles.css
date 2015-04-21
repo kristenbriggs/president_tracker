@@ -1,11 +1,14 @@
 body {
-  background: url("../Images/art_flag.jpg");
-  background-repeat: no-repeat;
+  background: url("../Images/art_flag.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
 #background {
-  background: url("../Images/white_house.jpg");
+  background: url("../Images/white_house.jpg")  ;
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -15,4 +18,3 @@ body {
   border: 3px solid white;
   margin-top: 35px;
 }
-
