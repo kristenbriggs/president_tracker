@@ -6,3 +6,7 @@ $('#flag').animate({
 $('#flag').click(function() {
   window.location = "candidate.html";
 })
+
+$('#flag2').click(function() {
+  window.location = 'vote.html';
+})
