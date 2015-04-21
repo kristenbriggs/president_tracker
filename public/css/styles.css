@@ -90,3 +90,9 @@ h1 {
     flex-shrink: <property unused>
     flex-basis: <property unused>
 }
+
+#flag2 {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
