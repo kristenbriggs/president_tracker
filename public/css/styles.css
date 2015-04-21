@@ -23,4 +23,78 @@ h1 {
   font-family: 'Pinyon Script', cursive;
   margin-left: 475px;
 }
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+
+.flex-items-default {
+    width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+
+ .flex-item-1 {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+ .flex-item-2 {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+ .flex-item-3 {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+ .flex-item-4 {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+ .flex-item-5 {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+ .flex-item-6 {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+#flag2 {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
 
