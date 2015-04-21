@@ -32,7 +32,7 @@ h1 {
     align-items: flex-start;
     width: 900px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 
@@ -45,6 +45,8 @@ h1 {
 }
 
  .flex-item-1 {
+    background-image: url("../Images/OMalley.jpg");
+    border: solid 5px white;
     width: 300px;
     height: 250px;
     flex-grow: <property unused>
@@ -53,6 +55,8 @@ h1 {
 }
 
  .flex-item-2 {
+    background-image: url("../Images/Cruz.jpg");
+    border: solid 5px white;
     width: 300px;
     height: 250px;
     flex-grow: <property unused>
@@ -61,6 +65,8 @@ h1 {
 }
 
  .flex-item-3 {
+    background-image: url("../Images/Webb.jpg");
+    border: solid 5px white;
     width: 300px;
     height: 250px;
     flex-grow: <property unused>
@@ -69,6 +75,8 @@ h1 {
 }
 
  .flex-item-4 {
+    background-image: url("../Images/Rubio.jpg");
+    border: solid 5px white;
     width: 300px;
     height: 250px;
     flex-grow: <property unused>
@@ -77,6 +85,8 @@ h1 {
 }
 
  .flex-item-5 {
+    background-image: url("../Images/Clinton.jpg");
+    border: solid 5px white;
     width: 300px;
     height: 250px;
     flex-grow: <property unused>
@@ -85,6 +95,8 @@ h1 {
 }
 
  .flex-item-6 {
+    background-image: url("../Images/Paul.jpg");
+    border: solid 5px white;
     width: 300px;
     height: 250px;
     flex-grow: <property unused>
@@ -98,3 +110,6 @@ h1 {
     right:0;
 }
 
+#candTopHeader {
+  margin-top: 50px;
+}
