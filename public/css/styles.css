@@ -20,6 +20,10 @@ body {
 }
 
 h1 {
-  font-family: 'Pinyon Script', cursive;
-  margin-left: 475px;
+  font-family: 'Oswald', cursive;
+  text-align: center;
 }
+.subheader  {
+  margin-top: -2em;
+}
+
