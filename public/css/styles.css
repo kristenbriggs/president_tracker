@@ -1,7 +1,7 @@
 body {
   background: url("../Images/art_flag.jpg");
   background-repeat: no-repeat;
-  width: 100%;
+
 }
 
 #background {
@@ -13,5 +13,6 @@ body {
   width: 90%;
   margin: 0 auto;
   border: 3px solid white;
+  margin-top: 35px;
 }
 
