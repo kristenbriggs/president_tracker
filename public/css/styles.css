@@ -1,0 +1,13 @@
+body {
+  background: url("../Images/art_flag.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#background {
+  background: url("../Images/white_house.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  z-index: 100;
+}
+
