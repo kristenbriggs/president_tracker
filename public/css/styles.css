@@ -18,3 +18,8 @@ body {
   border: 3px solid white;
   margin-top: 35px;
 }
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  margin-left: 475px;
+}
