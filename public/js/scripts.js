@@ -11,8 +11,15 @@ $('#flag2').click(function() {
 })
 $(function() {
     $('#omalley').dialog({
-        autoOpen:false
-    });
+        autoOpen:false,
+        width:500,
+        height:500,
+        modal: true,
+        buttons: {
+          Ok: function() {
+            $(this).dialog("close");
+        }
+    }});
 
     $(".flex-item-1").click(function(e) {
         e.preventDefault();
