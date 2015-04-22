@@ -3,7 +3,7 @@ $('#flag').animate({
   }, 5000, function() {
   });
 $('#flag').click(function() {
-  window.location = "candidate.html";
+  window.location = "candidates.html";
 })
 
 $('#flag2').click(function() {
