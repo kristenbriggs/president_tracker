@@ -10,3 +10,7 @@ $('#flag1').click(function() {
 $('#flag2').click(function() {
   window.location = 'vote.html';
 })
+
+$('#flag3').click(function() {
+  window.location = 'wheel.html';
+})
