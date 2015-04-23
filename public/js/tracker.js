@@ -16,71 +16,53 @@ var paul = new President("Paul", 0);
 
 function presChartVotes(pres1votes, pres2votes, pres3votes, pres4votes, pres5votes, pres6votes) {
 
-  var data = [
-    {
-        value: pres1votes,
-        color:"#F7464A",
-        highlight: "#FF5A5E",
-        label: "pres1"
-    },
-    {
-        value: pres2votes,
-        color: "#46BFBD",
-        highlight: "#5AD3D1",
-        label: "pres2"
-    },
-    {
-        value: pres3votes,
-        color: "#C9D787",
-        highlight: "#C9D580",
-        label: "pres3"
-    },
-    {
-        value: pres4votes,
-        color: "#9C4CFF",
-        highlight: "#9C1CFF",
-        label: "pres4"
-    },
-    {
-        value: pres5votes,
-        color: "#03FF85",
-        highlight: "#03FF22",
-        label: "pres5"
-    },
-    {
-        value: pres6votes,
-        color: "#FFF62D",
-        highlight: "#FF062D",
-        label: "pres6"
-    },
-    ];
+var data = {
+    labels: ["OMalley", "Cruz", "Webb", "Rubio", "Clinton", "Paul"],
+    datasets: [
+        {
+            label: "Candidates",
+            fillColor: "rgba(22,57,255,0.5)",
+            strokeColor: "rgba(22,57,255,0.8)",
+            highlightFill: "rgba(220,220,220,0.75)",
+            highlightStroke: "rgba(220,220,220,1)",
+            data: [pres1votes, pres2votes, pres3votes, pres4votes, pres5votes, pres6votes]
+        }
+      ]
+    };
+
  var options = {
- //Boolean - Whether we should show a stroke on each segment
-       segmentShowStroke : true,
+    //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
+    scaleBeginAtZero : true,
 
-       //String - The colour of each segment stroke
-       segmentStrokeColor : "#fff",
+    //Boolean - Whether grid lines are shown across the chart
+    scaleShowGridLines : true,
 
-       //Number - The width of each segment stroke
-       segmentStrokeWidth : 2,
+    //String - Colour of the grid lines
+    scaleGridLineColor : "rgba(0,0,0,.05)",
 
-       //Number - The percentage of the chart that we cut out of the middle
-       percentageInnerCutout : 50, // This is 0 for Pie charts
+    //Number - Width of the grid lines
+    scaleGridLineWidth : 1,
 
-       //Number - Amount of animation steps
-       animationSteps : 100,
+    //Boolean - Whether to show horizontal lines (except X axis)
+    scaleShowHorizontalLines: true,
 
-       //String - Animation easing effect
-       animationEasing : "easeOutBounce",
+    //Boolean - Whether to show vertical lines (except Y axis)
+    scaleShowVerticalLines: true,
 
-       //Boolean - Whether we animate the rotation of the Doughnut
-       animateRotate : true,
+    //Boolean - If there is a stroke on each bar
+    barShowStroke : true,
 
-       //Boolean - Whether we animate scaling the Doughnut from the centre
-       animateScale : false,
+    //Number - Pixel width of the bar stroke
+    barStrokeWidth : 2,
 
-       //String - A legend template
-       legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<segments.length; i++){%><li><span style=\"background-color:<%=segments[i].fillColor%>\"></span><%if(segments[i].label){%><%=segments[i].label%><%}%></li><%}%></ul>"
+    //Number - Spacing between each of the X value sets
+    barValueSpacing : 5,
+
+    //Number - Spacing between data sets within X values
+    barDatasetSpacing : 1,
+
+    //String - A legend template
+    legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
 
 };
 
