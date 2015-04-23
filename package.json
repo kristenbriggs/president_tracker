@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kristenbriggs/president_tracker/issues"
   },
-  "homepage": "https://github.com/kristenbriggs/president_tracker"
+  "homepage": "https://github.com/kristenbriggs/president_tracker",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }
