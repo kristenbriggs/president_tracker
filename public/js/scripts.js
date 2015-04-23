@@ -1,4 +1,4 @@
-$('#flag').animate({
+$('#flag1').animate({
     marginLeft: '+=' + $('#background').width()/2.4
   }, 5000, function() {
   });
