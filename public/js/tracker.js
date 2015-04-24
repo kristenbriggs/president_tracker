@@ -5,12 +5,12 @@ var President = function(name, votes) {
   this.votes = votes;
 }
 
-var omalley = new President("OMalley", 0);
-var cruz = new President("Cruz", 0);
-var webb = new President("Webb", 0);
-var rubio = new President("Rubio", 0);
-var clinton = new President("Clinton", 0);
-var paul = new President("Paul", 0);
+var omalley = new President("OMalley", 8);
+var cruz = new President("Cruz", 1);
+var webb = new President("Webb", 2);
+var rubio = new President("Rubio", 2);
+var clinton = new President("Clinton", 5);
+var paul = new President("Paul", 2);
 
 function presChartVotes(pres1votes, pres2votes, pres3votes, pres4votes, pres5votes, pres6votes) {
 

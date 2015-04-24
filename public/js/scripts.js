@@ -1,6 +1,6 @@
 $('#flag').animate({
     marginLeft: '+=' + $('#background').width()/2.4
-  }, 5000, function() {
+  }, 10000, function() {
   });
 $('#flag').click(function() {
   window.location = "candidates.html";

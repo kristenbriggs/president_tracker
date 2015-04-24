@@ -7,6 +7,10 @@ body {
 
 }
 
+#wheelNav   {
+    float: right;
+}
+
 #background {
   background: url("../Images/white_house.jpg")  ;
   background-repeat: no-repeat;
@@ -23,9 +27,12 @@ h1 {
   font-family: 'Oswald', cursive;
   text-align: center;
 }
+
 .subheader  {
   margin-top: -2em;
+  margin-bottom: 255px;
 }
+
 .flex-container {
     display:flex;
     flex-direction: row;
@@ -120,6 +127,21 @@ h1 {
 #candTopHeader {
   font-family: 'Open Sans', sans-serif;
   margin-top: 50px;
+  text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+}
+
+span {
+    display: block;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+    font-size: 40px;
+    font-family: Arial; sans-serif;
+    margin-top: 50px;
 }
 
 canvas {max-width: 100%;}
+
+.footer {
+   text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+}
