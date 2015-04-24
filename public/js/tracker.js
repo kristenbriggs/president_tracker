@@ -70,32 +70,32 @@ var myPresChart = new Chart(ctx).Bar(data,options);
 
    var img1 = $('<img>').attr({
     id: 'imgOne',
-    src: "../public/Images/OMalley.jpg"
+    src: "../Images/OMalley.jpg"
    });
 
    var img2 = $('<img>').attr({
     id: 'imgTwo',
-    src: "../public/Images/Cruz.jpg"
+    src: "../Images/Cruz.jpg"
    });
 
    var img3 = $('<img>').attr({
     id: 'imgThree',
-    src: "../public/Images/Webb.jpg"
+    src: "../Images/Webb.jpg"
    });
 
    var img4 = $('<img>').attr({
     id: 'imgFour',
-    src: "../public/Images/Rubio.jpg"
+    src: "../Images/Rubio.jpg"
    });
 
    var img5 = $('<img>').attr({
     id: 'imgFive',
-    src: "../public/Images/Clinton.jpg"
+    src: "../Images/Clinton.jpg"
    });
 
    var img6 = $('<img>').attr({
     id: 'imgSix',
-    src: "../public/Images/Paul.jpg"
+    src: "../Images/Paul.jpg"
    });
 
    var $presDiv = $('#presDiv').empty();
