@@ -1,7 +1,5 @@
 (function(){
 
-//var randomPresidents = [];
-
 var President = function(name, votes) {
   this.name = name;
   this.votes = votes;
@@ -70,21 +68,6 @@ var ctx = document.getElementById("presChart").getContext("2d");
 var myPresChart = new Chart(ctx).Bar(data,options);
 }
 
- //function getSixPres(imgAr) {
-
-   // Clears the div for new cat photos.
-   //var $presDiv = $('#Images').empty();
-
-  //  var num = Math.floor(Math.random() * imgAr.length);
-  //  var num2 = Math.floor(Math.random() * imgAr.length);
-
-  // while(num === num2) {
-  //   num2 = Math.floor(Math.random() * imgAr.length);
-  //  }
-
-  //  var kitten1 = imgAr[num];
-  //  var kitten2 = imgAr[num2];
-
    var img1 = $('<img>').attr({
     id: 'imgOne',
     src: "../public/Images/OMalley.jpg"
@@ -114,21 +97,14 @@ var myPresChart = new Chart(ctx).Bar(data,options);
     id: 'imgSix',
     src: "../public/Images/Paul.jpg"
    });
+
    var $presDiv = $('#presDiv').empty();
    $presDiv.append(img1, img2, img3, img4, img5, img6);
-
-   //var $kitten1image = $('#imgOne');
-   //var $kitten2image = $('#imgTwo');
 
    $('#imgOne').on('click', function() {
       $(this).css("border", "5px solid yellow");
 
       omalley.votes++;
-
-      //kitten1.timesShown++;
-      //kitten2.timesShown++;
-
-      //setTimeout(getTwoKittens, 500, randomKittens);
 
       presChartVotes(omalley.votes, cruz.votes, webb.votes, rubio.votes, clinton.votes, paul.votes);
    });
@@ -137,62 +113,34 @@ var myPresChart = new Chart(ctx).Bar(data,options);
 
       cruz.votes++;
 
-        // kitten1.timesShown++;
-       //kitten2.timesShown++;
-
-      //setTimeout(getTwoKittens, 500, randomKittens);
-
       presChartVotes(omalley.votes, cruz.votes, webb.votes, rubio.votes, clinton.votes, paul.votes);
    });
- $('#imgThree').on("click", function() {
-    $(this).css("border", "5px solid yellow");
+   $('#imgThree').on("click", function() {
+      $(this).css("border", "5px solid yellow");
 
       webb.votes++;
 
-        // kitten1.timesShown++;
-       //kitten2.timesShown++;
-
-      //setTimeout(getTwoKittens, 500, randomKittens);
-
       presChartVotes(omalley.votes, cruz.votes, webb.votes, rubio.votes, clinton.votes, paul.votes);
    });
- $('#imgFour').on("click", function() {
-    $(this).css("border", "5px solid yellow");
+   $('#imgFour').on("click", function() {
+      $(this).css("border", "5px solid yellow");
 
       rubio.votes++;
 
-        // kitten1.timesShown++;
-       //kitten2.timesShown++;
-
-      //setTimeout(getTwoKittens, 500, randomKittens);
-
       presChartVotes(omalley.votes, cruz.votes, webb.votes, rubio.votes, clinton.votes, paul.votes);
    });
- $('#imgFive').on("click", function() {
-    $(this).css("border", "5px solid yellow");
+   $('#imgFive').on("click", function() {
+      $(this).css("border", "5px solid yellow");
 
       clinton.votes++;
 
-        // kitten1.timesShown++;
-       //kitten2.timesShown++;
-
-      //setTimeout(getTwoKittens, 500, randomKittens);
-
       presChartVotes(omalley.votes, cruz.votes, webb.votes, rubio.votes, clinton.votes, paul.votes);
    });
- $('#imgSix').on("click", function() {
-    $(this).css("border", "5px solid yellow");
+   $('#imgSix').on("click", function() {
+      $(this).css("border", "5px solid yellow");
 
       paul.votes++;
 
-        // kitten1.timesShown++;
-       //kitten2.timesShown++;
-
-      //setTimeout(getTwoKittens, 500, randomKittens);
-
       presChartVotes(omalley.votes, cruz.votes, webb.votes, rubio.votes, clinton.votes, paul.votes);
    });
-
-//generateKittenObjs();
-
 }());

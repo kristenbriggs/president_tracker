@@ -5,11 +5,9 @@ $('#flag').animate({
 $('#flag').click(function() {
   window.location = "candidates.html";
 })
-
 $('#flag2').click(function() {
   window.location = 'vote.html';
 })
-
 $('#flag3').click(function() {
   window.location = 'wheel.html';
 })
@@ -132,6 +130,5 @@ $(function() {
         e.preventDefault();
         $('#paul').dialog('open');
     });
-
 });
 
